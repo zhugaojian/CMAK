@@ -2,7 +2,7 @@
  * Copyright 2015 Yahoo Inc. Licensed under the Apache License, Version 2.0
  * See accompanying LICENSE file.
  */
-name := """cmak"""
+name := """cmak-rd"""
 
 /* For packaging purposes, -SNAPSHOT MUST contain a digit */
 version := "3.0.0.5"
