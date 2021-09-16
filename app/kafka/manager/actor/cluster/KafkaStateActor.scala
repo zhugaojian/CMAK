@@ -263,7 +263,7 @@ case class KafkaManagedOffsetCache(clusterContext: ClusterContext
         s"${b.host}:$port"
     }.mkString(",")
     val props: Properties = new Properties()
-    props.put(GROUP_ID_CONFIG, s"KMOffsetCache-$hostname")
+    props.put(GROUP_ID_CONFIG, s"KMOffsetCache-cmak-fast-$hostname")
     props.put(BOOTSTRAP_SERVERS_CONFIG, brokerListStr)
     props.put(EXCLUDE_INTERNAL_TOPICS_CONFIG, "false")
     props.put(ENABLE_AUTO_COMMIT_CONFIG, "false")
